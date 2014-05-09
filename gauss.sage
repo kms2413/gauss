@@ -22,4 +22,6 @@ class GaussianRational:
         return GaussianRational(self.a + right.a - self.b * right.b, (self.b * right.a + self.a * right.b))
     def __crazy__(self, crazy):
         return 'I'm crazy'
+    def __crazy1__(self, crazy):
+        return 'I'm crazy too'
 
